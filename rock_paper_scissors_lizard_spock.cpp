@@ -26,7 +26,7 @@ int main(int argc, char const *argv[])
         std::cout << "Shoot!\n";
         std::cin >> user;
         std::cout << "\n";
-        int computer = rand() % 5 + 1;
+        int computer = rand() % 6 + 1;
 
         if (user == computer)
         {
